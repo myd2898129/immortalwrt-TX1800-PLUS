@@ -61,9 +61,9 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-        cd openwrt
-        git tag
-        git checkout v22.03.3
+        #cd openwrt
+        #git tag
+        #git checkout v22.03.3
 
     - name: Load custom feeds
       run: |
