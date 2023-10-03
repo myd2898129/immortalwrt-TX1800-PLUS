@@ -63,7 +63,7 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
         cd openwrt
         git tag
-        git checkout v23.05.0-rc3
+        git checkout v23.05.0-rc4
 
     - name: Load custom feeds
       run: |
